@@ -21,36 +21,36 @@ let lastResult;
 switch (select.value) {
     case 'Mercury':
      lastResult=resultWeight*3.7
-     planet.style.backgroundImage="url('../spaceImages/mercuri_preview_rev_1.png')"
+     planet.style.backgroundImage="url('/mercuri_preview_rev_1.png')"
         break;
         case 'Venus':
             lastResult=resultWeight*8.87
-     planet.style.backgroundImage="url('../spaceImages/venuss_preview_rev_1.png')"
+     planet.style.backgroundImage="url('/venuss_preview_rev_1.png')"
         break;
         case 'Earth':
             lastResult=resultWeight*9.81 
-     planet.style.backgroundImage="url('../spaceImages/earth.webp')"
+     planet.style.backgroundImage="url('/earth.webp')"
         break;
         case 'Mars':
             lastResult=resultWeight*3.71 
-     planet.style.backgroundImage="url('../spaceImages/marss_preview_rev_1.png')"
+     planet.style.backgroundImage="url('/marss_preview_rev_1.png')"
         break;
         case 'Jüpiter':
             lastResult= resultWeight*24.79
-     planet.style.backgroundImage="url('../spaceImages/jupiter_preview_rev_1.png')"
+     planet.style.backgroundImage="url('/jupiter_preview_rev_1.png')"
 
         break;
         case 'Satürn':
             lastResult=resultWeight*10.44
-     planet.style.backgroundImage="url('../spaceImages/saturnn_preview_rev_1.png')"
+     planet.style.backgroundImage="url('/saturnn_preview_rev_1.png')"
         break;
         case 'Uranüs':
             lastResult=resultWeight*8.87
-     planet.style.backgroundImage="url('../spaceImages/uranussss_preview_rev_1.png')"
+     planet.style.backgroundImage="url('/uranussss_preview_rev_1.png')"
         break;
         case 'Neptün':
             lastResult=resultWeight*11.15
-     planet.style.backgroundImage="url('../spaceImages/neptune_preview_rev_2.png')"
+     planet.style.backgroundImage="url('/neptune_preview_rev_2.png')"
         break;
     default:
         break;
