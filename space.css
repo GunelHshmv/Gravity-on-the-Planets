@@ -10,7 +10,7 @@ body{
       position: fixed;
       top: 0;
       left: 0;
-      background: url('../spaceImages/giphy.gif') repeat;
+      background: url('/giphy.gif') repeat;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -68,7 +68,7 @@ opacity: 1;
     pointer-events: none;
     width: 40%;
     height: 98%;
-    background-image: url('../spaceImages/earth.webp');
+    background-image: url('/earth.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -76,7 +76,7 @@ opacity: 1;
   .planet{
     width: 40%;
     height: 98%;
-    background-image: url('../spaceImages/earth.webp');
+    background-image: url('/earth.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
