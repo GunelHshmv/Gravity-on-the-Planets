@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+  }
+  .background-container {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background: url('../spaceImages/giphy.gif') repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+    }
+  .dataDiv{
+    display: none;
+      width: 70%;
+      height: 62%;
+      background-color: rgb(255, 255, 255,0.2);
+      align-items: center;
+      justify-content: space-around;
+  }
+  .firstDataDiv{
+    background-color: rgb(255, 255, 255,0.2);
+    margin-top: 10px;
+      width: 70%;
+      height: 60%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+  h1{
+    color: white;
+    text-shadow: 0 0 9px blue, 0 0 9px red;
+  }
+  h5{
+    color: black;
+    text-shadow: 0 0 8px blue, 0 0 8px red;
+  }
+  .main{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+  }
+  .inp {
+    height: 36px;
+  }
+  select{
+    height: 42px;
+    width: 200px;
+  }
+  .btn{
+    height: 42px;
+    width: 160px;
+    background-color: rgb(97, 96, 96);
+    color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  .earth{
+opacity: 1;
+    pointer-events: none;
+    width: 40%;
+    height: 98%;
+    background-image: url('../spaceImages/earth.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .planet{
+    width: 40%;
+    height: 98%;
+    background-image: url('../spaceImages/earth.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+.dataOfWeight{
+    width: 50%;
+    height: 68%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255,0.2);
+}
+.result{
+    background-color: aliceblue;
+    width: 100px;
+    height: 140px;
+    border-radius: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+p{
+  color: white;
+  text-shadow: 0 0 9px blue, 0 0 9px red;
+  padding: 10px;
+  font-size: 24px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+@media (max-width: 767px) {
+  .main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+  }
+  select,input, #btnCal{
+    height: 42px;
+    width: 250px;
+  }
+  p{
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+  }
+   select,input, #btnCal{
+      height: 42px;
+      width: 400px;
+    }
+    p{
+      font-size: 20px;
+    }
+}

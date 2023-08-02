@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/space.css">
+</head>
+<body>
+    <div class="background-container">
+        <h1>Calculate A Weight Of An Object On A Planet</h1>
+        <div class="main">
+            <div class="inputDiv">
+                <input type="number" class="inp" placeholder="Enter weight of object">
+            </div>
+            <div class="selectDiv">
+                <select name="space" class="select" id="space">
+                    <option value="Mercury">Mercury</option>
+                    <option value="Venus">Venus</option>
+                    <option value="Earth">Earth</option>
+                    <option value="Mars">Mars</option>
+                    <option value="Jüpiter">Jüpiter</option>
+                    <option value="Satürn">Satürn</option>
+                    <option value="Uranüs">Uranüs</option>
+                    <option value="Neptün">Neptün</option>
+                  </select>
+            </div>
+            <div >
+                <button id="btnCal" class="btn btn-light">Calculate</button>
+            </div>
+        </div>
+            <div class="firstDataDiv">
+                <div class="earth">
+                </div>
+                <div class="dataOfWeight">
+                    <p><b>You can calculate weight of object on different planet</b><br><br>
+                        1.Enter weight of object<br/>
+                        2.Select planet<br/>
+                        3.Click calculate button
+                    </p>
+            </div>
+        </div>
+        <div class="dataDiv">
+            <div class="planet"></div>
+            <div class="dataOfWeight">
+                <p class="dataDivP"></p>
+                <div class="result">result</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/javascript/space.js"></script>
+</html>
